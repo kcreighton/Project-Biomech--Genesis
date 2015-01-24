@@ -1,4 +1,4 @@
-#version 450
+#version 200
 //The vertex shader operates on each vertex
 
 //input data from the Vertex Buffer Object. Each vertex is 2 floats

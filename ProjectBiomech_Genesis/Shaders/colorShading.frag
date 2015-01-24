@@ -1,4 +1,4 @@
-#version 450
+#version 200
 //The fragment shader operates on each pixel in a given polygon
 
 //passed in from colorShading.vert
