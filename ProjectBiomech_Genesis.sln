@@ -17,6 +17,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{3DDBFE
 		.nuget\NuGet.targets = .nuget\NuGet.targets
 	EndProjectSection
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ZombieGame", "ZombieGame\ZombieGame.vcxproj", "{A05CACF1-0860-4739-9183-DD107920F7DA}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B0A45ED7-9550-4FDE-9863-30C952489182} = {B0A45ED7-9550-4FDE-9863-30C952489182}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -31,6 +36,10 @@ Global
 		{B0A45ED7-9550-4FDE-9863-30C952489182}.Debug|Win32.Build.0 = Debug|Win32
 		{B0A45ED7-9550-4FDE-9863-30C952489182}.Release|Win32.ActiveCfg = Release|Win32
 		{B0A45ED7-9550-4FDE-9863-30C952489182}.Release|Win32.Build.0 = Release|Win32
+		{A05CACF1-0860-4739-9183-DD107920F7DA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A05CACF1-0860-4739-9183-DD107920F7DA}.Debug|Win32.Build.0 = Debug|Win32
+		{A05CACF1-0860-4739-9183-DD107920F7DA}.Release|Win32.ActiveCfg = Release|Win32
+		{A05CACF1-0860-4739-9183-DD107920F7DA}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

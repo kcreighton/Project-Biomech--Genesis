@@ -1,7 +1,6 @@
-#version 420
+#version 130
 //The fragment shader operates on each pixel in a given polygon
 
-//passed in from colorShading.vert
 in vec2 fragmentPosition;
 in vec4 fragmentColor;
 in vec2 fragmentUV;
@@ -10,8 +9,6 @@ in vec2 fragmentUV;
 //for each pixel.
 out vec4 color;
 
-//undated at drawGame() function
-//uniform float time;
 uniform sampler2D mySampler;
 
 void main() {
