@@ -1,7 +1,9 @@
 #include <SDL/SDL.h>
 #include <GL/glew.h>
+#include "Runengine2D.h"
 
-//#include "Runengine2D.h"
+//a place where I am god
+//to escape where I am not
 
 namespace Runengine2D
 {

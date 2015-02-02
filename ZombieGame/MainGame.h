@@ -4,6 +4,7 @@
 #include <Runengine2D/GLSLProgram.h>
 #include <Runengine2D/Camera2D.h>
 #include <Runengine2D/InputManager.h>
+#include "Level.h"
 
 class MainGame
 {
@@ -38,5 +39,7 @@ private:
     Runengine2D::InputManager _inputManager; ///< Handles input
 
     Runengine2D::Camera2D _camera; ///< Main Camera
+
+	std::vector<Level*> _levelPointerList;
 };
 

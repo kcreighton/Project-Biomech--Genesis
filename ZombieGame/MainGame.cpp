@@ -14,7 +14,10 @@ MainGame::~MainGame() {
 }
 
 void MainGame::run() {
-    // IMPLEMENT THIS!
+	_levelPointerList.push_back(new Level("Levels/level1.txt"));
+
+	int a;
+	std::cin >> a;
 }
 
 void MainGame::initSystems() {

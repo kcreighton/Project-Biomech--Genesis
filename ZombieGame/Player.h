@@ -1,8 +1,8 @@
 #pragma once
 
-#include "Agent.h"
+#include "Human.h"
 
-class Player : public Agent
+class Player : public Human
 {
 public:
 	Player();
